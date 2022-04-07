@@ -57,7 +57,7 @@ function App() {
     <Router>
     <Header title="MedSev" searchBar={false}/>
     <Switch>
-          <Route exact path="/" render={()=>{
+          <Route exact path="/React-Todos-List" render={()=>{
             return (
               <>
                   <AddTodo addTodo={addTodo}/>
